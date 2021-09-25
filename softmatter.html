@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+    
+    <!--Jquery used to link the navBar to all other pages  -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <script src="https://kit.fontawesome.com/e51c75a363.js" crossorigin="anonymous"></script>
+  <!--<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  
+  <!-- Custom styles for this template -->
+  <link href="css/agency.css" rel="stylesheet">
+
+  <style>
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 45%;
+    margin: 10px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  </style>
+
+  
+<!-- Navbar Script, using Jquery to load from nav.html -->
+<div id="nav-placeholder">
+
+</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+</script>        
+    
+</head>
+
+ <!-- Soft Matter & Statistical Physics -->
+  <section class="page-section" id="topicheader">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h9 class="section-heading text-uppercase"><br>Soft Matter & Statistical Physics</h9>
+          <p style="text-align: justify !important; line-height: 1.5; font-weight: 250; font-size: 3vmin;"><br><!-- can add forward text here --> </p>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- Particle based Ising model -->
+  <section class="page-section" id="softmatter">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h7 class="section-heading" style="font-size: 4vmin">A particle-based Ising model</h7>
+          <h8 class="section-subheading" style="font-style: italic"><br>Quentin Novinger, Antonio Suma, Daniel Sigg, Giuseppe Gonnella, and Vincenzo Carnevale<br>Physical Review E, 103, 012125, 2021<br><br></h8>
+            <img class="right" src="img/ising.png" alt="" style="max-width:60%; max-height:50%; float:right; padding: 0 0 0 12px"/>
+          <p style="text-align: justify !important; line-height: 1.5; font-weight: 250; font-size: 2vmin;">
+		We characterize equilibrium properties and relaxation dynamics of a two-dimensional lattice containing, at each site, two particles connected by a double-well potential (dumbbell). Dumbbells are oriented in the orthogonal direction with respect to the lattice plane and interact with each other through a Lennard-Jones potential truncated at the nearest neighbor distance. We show that the system's equilibrium properties are accurately described by a two-dimensional Ising model with an appropriate coupling constant. Moreover, we characterize the coarsening kinetics by calculating the cluster size as a function of time and compare the results with Monte Carlo simulations based on Glauber or reactive dynamics rate constants.<br></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Global and local mechanical, Nucleic Acids Research 2020 -->
+  <section class="page-section" id="softmatter">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h7 class="section-heading" style="font-size: 4vmin">Global and local mechanical properties control endonuclease reactivity of a DNA origami nanostructure</h7>
+          <h8 class="section-subheading" style="font-style: italic"><br>Antonio Suma, Alex Stopar, Allen Nicholson, Matteo Castronovo, and Vincenzo Carnevale<br>Nucleic Acids Research, 48(9), 4672-4680, 2020<br><br></h8>
+            <img class="right" src="img/dna-origami.jpeg" alt="" style="max-width:60%; max-height:50%; float:right; padding: 0 0 0 12px"/>
+          <p style="text-align: justify !important; line-height: 1.5; font-weight: 250; font-size: 2vmin;">
+		We used coarse-grained molecular dynamics simulations to characterize the global and local mechanical properties of a DNA origami triangle nanostructure. The structure presents two metastable conformations separated by a free energy barrier that is lowered upon omission of four specific DNA staples (defect). In contrast, only one stable conformation is present upon removing eight staples. The metastability is explained in terms of the intrinsic conformations of the three trapezoidal substructures. We computationally modeled the local accessibility to endonucleases, to predict the reactivity of twenty sites, and found good agreement with the experimental data. We showed that global fluctuations affect local reactivity: the removal of the DNA staples increased the computed accessibility to a restriction enzyme, at sites as distant as 40 nm, due to an increase in global fluctuation. These results raise the intriguing possibility of the rational engineering of allosterically modulated DNA origami.<br></p>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  <!-- Microcanonical coarse graining -->
+  <section class="page-section" id="softmatter">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h7 class="section-heading" style="font-size: 4vmin">Microcanonical coarse-graining of the kinetic Ising model</h7>
+          <h8 class="section-subheading" style="font-style: italic"><br>Daniel Sigg, Vincent Voelz, and Vincenzo Carnevale<br>Physical Review E, 103, 012125, 2021<br><br></h8>
+            <img class="right" src="img/microcanonical.jpeg" alt="" style="max-width:60%; max-height:50%; float:right; padding: 0 0 0 12px"/>
+          <p style="text-align: justify !important; line-height: 1.5; font-weight: 250; font-size: 2vmin;">
+		We propose a scheme for coarse-graining the dynamics of the 2-D kinetic Ising model onto the microcanonical ensemble. At subcritical temperatures, 2-D and higher-dimensional Ising lattices possess two basins of attraction separated by a free energy barrier. Projecting onto the microcanonical ensemble has the advantage that the dependence of the crossing rate constant on environmental conditions can be obtained from a single Monte Carlo trajectory. Using various numerical methods, we computed the forward rate constants of coarse-grained representations of the Ising model and compared them with the true value obtained from brute force simulation. While coarse-graining preserves detailed balance, the computed rate constants for barrier heights between 5 kT and 9 kT were consistently 50% larger than the true value. Markovianity testing revealed loss of dynamical memory, which we propose accounts for coarse-graining error. Committor analysis did not support the alternative hypothesis that microcanonical projection is incompatible with an optimal reaction coordinate. The correct crossing rate constant was obtained by spectrally decomposing the diffusion coefficient near the free energy barrier and selecting the slowest (reactive) component. The spectral method also yielded the correct rate constant in the 3-D Ising lattice, where coarse-graining error was 6% and memory effects were diminished. We conclude that microcanonical coarse-graining supplemented by spectral analysis of short-term barrier fluctuations provides a comprehensive kinetic description of barrier crossing in a non-inertial continuous-time jump process.<br></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Destabilization of bacterial membranes -->
+  <section class="page-section" id="softmatter">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h7 class="section-heading" style="font-size: 4vmin">Analysis of the destabilization of bacterial membranes by quaternary ammonium compounds: A combined experimental and computational study</h7>
+          <h8 class="section-subheading" style="font-style: italic"><br>Saleh Alkhalifa, Megan Jennings, Daniele Granata, Michael Klein, William Wuest, Kevin Minbiole, and Vincenzo Carnevale<br>ChemBioChem, 21(10), 1510-1516, 2020<br><br></h8>
+            <img class="right" src="img/destabilization.jpg" alt="" style="max-width:60%; max-height:50%; float:right; padding: 0 0 0 12px"/>
+          <p style="text-align: justify !important; line-height: 1.5; font-weight: 250; font-size: 2vmin;">
+		The mechanism of action of quaternary ammonium compound (QAC) antiseptics has long been assumed to be straightforward membrane disruption, although the process of approaching and entering the membrane has little modeling precedent. Furthermore, questions have more recently arisen regarding bacterial resistance mechanisms, and why select classes of QACs (specifically, multicationic QACs) are less prone to resistance. In order to better understand such subtleties, a series of molecular dynamics simulations were utilized to help identify these molecular determinants, directly comparing mono-, bis-, and triscationic QACs in simulated membrane intercalation models. Three distinct membranes were simulated, mimicking the surfaces of Escherichia coli and Staphylococcus aureus, as well as a neutral phospholipid control. By analyzing the resulting trajectories in the form of a timeseries analysis, insight was gleaned regarding the significant steps and interactions involved in the destabilization of phospholipid bilayers within the bacterial membranes. Finally, to more specifically probe the effect of the hydrophobic section of the amphiphile that presumably penetrates the membrane, a series of alkyl- and ester-based biscationic quaternary ammonium compounds were prepared, tested for antimicrobial activity against both Gram-positive and Gram-negative bacteria, and modeled.<br></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <span class="copyright">Copyright &copy; Vincenzo Carnevale</span>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a href = "https://github.com/carnevale-lab">
+                <i class = "fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+ 
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/agency.min.js"></script>
+
+</body>
+
+</html>

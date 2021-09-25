@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!--Jquery used to link the navBar to all other pages  -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <script src="https://kit.fontawesome.com/e51c75a363.js" crossorigin="anonymous"></script>
+    <!--<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 45%;
+            margin: 10px;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+    </style>
+
+    
+<!-- Navbar Script, using Jquery to load from nav.html -->
+<div id="nav-placeholder">
+
+</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+</script>        
+    
+
+</head>
+
+<!-- Tools & Methods -->
+  <section class="page-section" id="topicheader">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h9 class="section-heading text-uppercase"><br>Tools & Methods<br></h9>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- SPECTRUS Web Server -->
+  <section class="page-section" id="SPECTRUS Web Server">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h7 class="section-heading text-uppercase" style="text-align: center;">
+	  	<br>SPECTRUS Web Server<br></h7>
+            <img class="center" src="img/spectrus.jpg" alt="" style="max-width:100%; max-height:100%;">
+          <p style="text-align: justify !important; line-height: 1.5; font-weight: 250; font-size: 3vmin;"> <br>
+		<a href="http://spectrus.sissa.it/">
+			<br>The SPECTRUS web server (Spectral-based Rigid Unit Subdivision)</a> performs a decomposition into quasi-rigid
+			domains of proteins or protein complexes, based on the analysis of the distance fluctuations between pairs of 
+			amino acids. The server processes entries of up to 2000 amino acids and trajectory files of up to 50MB. If your 
+			data exceed this limit, please consider to run SPECTRUS locally on your machine by installing the source code, 
+			available <a href="http://spectrus.sissa.it/download.html">here</a>.<br>
+	  </p>
+	  <p style="text-align: justify !important; line-height: 1.5; font-weight: 250; font-size: 3vmin; font-style: italic;">
+	      <br>Ponzoni L, Polles G, Carnevale V, Micheletti C, "SPECTRUS: a dimensionality reduction approach for identifying 
+		  dynamical domains in protein complexes from limited structural datasets", Structure, 2015.<br>
+	  </p5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THIS IS WHAT IS CAUSING THE FOOTER ISSUE-->
+  <!-- SPECTRUS-evo Webserver-->
+  <section class="page-section" id="SPECTRUS-evo Webserver">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h7 class="section-heading text-uppercase" style="text-align: center;">
+		  <br>SPECTRUS-evo Web Server<br></h7>
+            <img class="center" src="img/spectrus-evo.jpg" alt="" style="max-width:100%; max-height:100%;">
+          <p style="text-align: justify !important; line-height: 1.5; font-weight: 250; font-size: 3vmin;"> <br>
+		<a href="http://spectrus.sissa.it/spectrus-evo_webserver/index.html">
+			The SPECTRUS-evo web server (Spectral-based Rigid Unit Subdivision)</a> performs a decomposition of a protein
+			sequence into evolutionarily-related domains, based on the analysis of coevolutionary couplings between pairs
+			of amino acid positions in a multiple sequence alignment.<br>
+	  </p>
+	  <p style="text-align: justify !important; line-height: 1.5; font-weight: 250; font-size: 3vmin; font-style: italic;">
+	      <br>Granata D, Ponzoni L, Micheletti C, Carnevale V, "Patterns of coevolving amino acids unveil structural and dynamical 
+		  domains", PNAS, 2017.<br>
+	  </p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- END FOOTER ISSUE-->
+
+<!-- ID-->
+  <section class="page-section" id="Intrinsic Dimension Estimator">
+    <div class="container">
+      <div class="row" >
+        <div class="col-lg-12" style="overflow: hidden;">
+          <h7 class="section-heading text-uppercase" style="text-align: center;">
+	  	<br>Intrinsic Dimension Estimator <br></h7>
+            <img class="center" src="img/ID2.jpg" alt="" style="max-width:100%; max-height:100%;">
+          <p style="text-align: justify !important; line-height: 1.5; font-weight: 250; font-size: 3vmin;"> <br> <br>
+
+		The collective behavior of a large number of degrees of freedom can be often described by a handful of variables. 
+		This observation justifies the use of dimensionality reduction approaches to model complex systems and motivates the 
+		search for a small set of relevant “collective” variables. We ahve analyzed this issue by focusing on the optimal 
+		number of variable needed to capture the salient features of a generic dataset and developed a novel estimator for the 
+		intrinsic dimension (ID). By approximating geodesics with minimum distance paths on a graph, we have analyzed the 
+		distribution of pairwise distances around the maximum and exploited its dependency on the dimensionality to obtain an 
+		ID estimate. The resulting estimator does not depend on the shape of the intrinsic manifold and is highly accurate, 
+		even for exceedingly small sample sizes. <br>
+	  </p>
+	  <p style="text-align: justify !important; line-height: 1.5; font-weight: 250; font-size: 3vmin; font-style: italic;">
+	      <br> <a href="https://github.com/dgranata/Intrinsic-Dimension"> Python code for intrinsic dimension estimation of generic datasets, from the paper: </a> <br>
+		  D. Granata and V. Carnevale. Accurate Estimation of the Intrinsic Dimension Using Graph Distances: Unraveling the 
+		  Geometric Complexity of Datasets, Sci Rep. 2016; 6: 31377.<br>
+	  </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+    <footer class="footer">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-4">
+                <span class="copyright">Copyright &copy; Vincenzo Carnevale</span>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                        <a href = "https://github.com/carnevale-lab">
+                            <i class = "fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+            </div>
+        </div>
+    </div>
+    </footer>
+  <!--<footer class="footer">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <span class="copyright">Copyright &copy; Vincenzo Carnevale</span>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a href = "https://github.com/carnevale-lab">
+                <i class = "fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+        </div>
+      </div>
+    </div>
+  </footer> -->
+
+ 
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/agency.min.js"></script>
+
+</body>
+
+</html>
