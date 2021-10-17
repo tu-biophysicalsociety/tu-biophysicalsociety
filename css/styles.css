@@ -523,11 +523,6 @@ img, video, iframe, embed, object {
 }
 /* Features
     -------------------------------------------------*/
-iframe {
-        width: 1px;
-        min-width: 100%;
-        *width: 100%;
-    }
 
 #features h2 {
 	color: #fff;
