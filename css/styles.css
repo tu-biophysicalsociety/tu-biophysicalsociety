@@ -523,6 +523,7 @@ img, video, embed, object {
 }
 
 .googleCalendar{
+  overflow: hidden;
   position: relative;
   height: 0;
   width: 50%;
