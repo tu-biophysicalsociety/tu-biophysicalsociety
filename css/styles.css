@@ -526,7 +526,7 @@ img, video, embed, object {
   position: relative;
   height: 0;
   width: 100%;
-  padding-bottom: 20%;
+  padding-bottom: 80%;
 }
 
 .googleCalendar iframe{
